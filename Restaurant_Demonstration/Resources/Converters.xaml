@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:converter="clr-namespace:Restaurant_Demonstration.Converter">
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConv"/>
+    <converter:InvertableBooleanToVisibilityConverter x:Key="SectionsViewConv"/>
+</ResourceDictionary>
